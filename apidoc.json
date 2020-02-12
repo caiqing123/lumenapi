@@ -1,0 +1,7 @@
+{
+  "name": "API文档",
+  "version": "1.0.0",
+  "description": "本文档提供api接口，文档使用RESTfull风格，如有疑问请联系开发者",
+  "title": "lumen API文档",
+  "url" : "http://192.168.1.25:9000/lumen/public/api"
+}

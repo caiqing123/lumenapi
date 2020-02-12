@@ -1,0 +1,16 @@
+{
+  "name": "API文档",
+  "version": "1.0.0",
+  "description": "本文档提供api接口，文档使用RESTfull风格，如有疑问请联系开发者",
+  "title": "lumen API文档",
+  "url": "http://192.168.1.25:9000/lumen/public/api",
+  "sampleUrl": false,
+  "defaultVersion": "0.0.0",
+  "apidoc": "0.3.0",
+  "generator": {
+    "name": "apidoc",
+    "time": "2020-01-18T06:58:25.307Z",
+    "url": "http://apidocjs.com",
+    "version": "0.19.1"
+  }
+}
