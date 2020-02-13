@@ -69,6 +69,7 @@ $app->singleton(
 $app->middleware([
     //set language accept-language
     'locale' => App\Http\Middleware\ChangeLocale::class,
+    \App\Http\Middleware\CorsMiddleware::class,
 ]);
 
 $app->routeMiddleware([
