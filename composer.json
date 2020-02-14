@@ -14,6 +14,7 @@
         "liyu/dingo-serializer-switch": "^0.3.1",
         "palanik/lumen-cors": "^0.0.3",
         "predis/predis": "^1.1",
+        "swooletw/laravel-swoole": "^2.6",
         "tymon/jwt-auth": "1.0.0-rc.5",
         "vlucas/phpdotenv": "3.3.*"
     },

@@ -102,6 +102,10 @@ $app->register(Illuminate\Redis\RedisServiceProvider::class);
 //app('Dingo\Api\Auth\Auth')->extend('jwt', function ($app) {
 //return new Dingo\Api\Auth\Provider\JWT($app['Tymon\JWTAuth\JWTAuth']);
 //});
+//swoole
+$app->register(\SwooleTW\Http\LumenServiceProvider::class);
+$app->configure('swoole_http');
+$app->configure('swoole_websocket.php');
 
 // Injecting auth
 $app->singleton(Illuminate\Auth\AuthManager::class, function ($app) {
